@@ -12,8 +12,13 @@ const About = () => {
                     <span className='line'></span>
                     <p>""""</p>
                     <p>""""</p>
+                   
                     <button className='button'>Explore More</button>
                 </div>
+              
+ 
+
+
             </div>
         </div>
     )
