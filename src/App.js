@@ -4,7 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
-
+import Imahe from './components/Imahe'
 function App() {
   return (
     <div>
@@ -13,6 +13,7 @@ function App() {
       <About />
       <Resume />
       <Projects />
+      <Imahe />
      
     </div>
   );
