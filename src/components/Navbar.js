@@ -11,9 +11,7 @@ const Navbar = () => {
   return (
     <div className={styles.header}>
       <nav className={styles.navbar}>
-        <a href='/' className={styles.logo}>
-          <h1>Pepe.</h1>
-        </a>
+        
         <div className={styles.hamburger} onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: '#ffffff' }} />

@@ -6,7 +6,9 @@ const Projects = () => {
   return (
     <div className={styles.projects}>
       <img className={styles['background-image']} src={photoFile} alt="Background" />
-      <h1>hah ano na</h1>
+      <button className={styles.projectbutton}>
+        <a>View my Projects</a>
+      </button>
     </div>
   );
 }

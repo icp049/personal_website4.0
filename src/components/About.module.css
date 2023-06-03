@@ -12,6 +12,10 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+.container img{
+    width: 500px;
+}
+
 .about h2 {
     font-size: 3rem;
 }
@@ -37,6 +41,24 @@
 .about button {
     margin-top: 1rem;
 }
+
+
+.about .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .about .icons img {
+    height: 40px;
+    margin: 0.5rem;
+  }
+
+  .about .icons img:last-child {
+    margin-right: 0;
+  }
 
 @media screen and (max-width:940px) {
     .about .container {
