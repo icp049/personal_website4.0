@@ -1,27 +1,22 @@
-import React from 'react'
-import ian from '../images/profile.jpg'
-import './About.css'
+import React from 'react';
+import styles from './About.module.css';
+import ian from '../images/profile.jpg';
 
 const About = () => {
-    return (
-        <div className='about' id='about'>
-            <div className='container'>
-                <img src={ian} alt='ian' />
-                <div className='col-2'>
-                    <h2>About</h2>
-                    <span className='line'></span>
-                    <p>""""</p>
-                    <p>""""</p>
-                   
-                    <button className='button'>Explore More</button>
-                </div>
-              
- 
-
-
-            </div>
+  return (
+    <div className={styles.about} id='about'>
+      <div className={styles.container}>
+        <img src={ian} alt='ian' />
+        <div className={styles['col-2']}>
+          <h2>About</h2>
+          <span className={styles.line}></span>
+          <p>""""</p>
+          <p>""""</p>
+          <button className={styles.button}>Explore More</button>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default About
+export default About;

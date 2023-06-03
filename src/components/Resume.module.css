@@ -1,19 +1,31 @@
+.container *{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 
+}
 
-
+.container body{
+    background-color:lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
 
 .container
 {
     position: relative;
     width: 100%;
-    max-width: 2000px;
+    max-width: 1800px; /* Adjust this value to your desired width */
     min-height: 1000px;
-    margin: 50px;
+    margin: 50px auto; /* Remove the left margin and center the container horizontally */
     background: white;
     display: grid;
     grid-template-columns: 2fr 3fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
-
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1); 
 
 }
 

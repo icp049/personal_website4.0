@@ -1,5 +1,5 @@
 import React from 'react';
-import './Imahe.css';
+import styles from './Imahe.module.css';
 import image1 from '../images/image1.jpg';
 import people from '../images/people.jpg';
 import kalye from '../images/kalye.jpg';
@@ -7,19 +7,19 @@ import moments from '../images/moments.jpg';
 
 function Imahe() {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <header>
-        <h3 className="title">Imahe.</h3>
+        <h3 className={styles.title}>Imahe.</h3>
         <p>By: Ian Jericho Pedeglorio</p>
       </header>
 
       <hr />
 
       <section>
-        <div className="container">
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
+        <div className={styles.container}>
+          <div className={styles['gallery-container']}>
+            <div className={styles['gallery-item']}>
+              <div className={styles.image}>
                 <a href="general.html">
                   <img src={image1} alt="" />
                 </a>
@@ -27,9 +27,9 @@ function Imahe() {
             </div>
           </div>
 
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
+          <div className={styles['gallery-container']}>
+            <div className={styles['gallery-item']}>
+              <div className={styles.image}>
                 <a href="people.html">
                   <img src={people} alt="" />
                 </a>
@@ -37,17 +37,17 @@ function Imahe() {
             </div>
           </div>
 
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
+          <div className={styles['gallery-container']}>
+            <div className={styles['gallery-item']}>
+              <div className={styles.image}>
                 <img src={kalye} alt="" />
               </div>
             </div>
           </div>
 
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
+          <div className={styles['gallery-container']}>
+            <div className={styles['gallery-item']}>
+              <div className={styles.image}>
                 <img src={moments} alt="" />
               </div>
             </div>
