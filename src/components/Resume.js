@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './Resume.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Resume = () => {
   return (
@@ -18,41 +21,49 @@ const Resume = () => {
           </div>
 
           <div className={styles.contact_me}>
-            <h3 className={styles.title}>Contact Me</h3>
+            <h3 className={styles.title}> Contact Me</h3>
             <ul>
               <li>
                 <span className={styles.icon}>
                   <i className="fa fa-phone" aria-hidden="true"></i>
                 </span>
+                <FontAwesomeIcon icon={faPhone} />
                 <span className={styles.text}> +1 306 263 3599</span>
               </li>
               <li>
                 <span className={styles.icon}>
                   <i className="fa fa-envelope" aria-hidden="true"></i>
+                  <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                <span className={styles.text}>pedeglorio.ijp@gmail.com</span>
+                <span className={styles.text}> pedeglorio.ijp@gmail.com</span>
               </li>
               <li>
                 <span className={styles.icon}>
                   <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                 </span>
+                <FontAwesomeIcon icon={faLinkedin} />
                 <span className={styles.text}>
-                  <a href="linkedin.com/in/ian-pedeglorio-a3037b253">Ian Pedeglorio</a>
+                
+                  <a href="linkedin.com/in/ian-pedeglorio-a3037b253"> Ian Pedeglorio</a>
                 </span>
               </li>
               <li>
                 <span className={styles.icon}>
                   <i className="fa fa-github-alt" aria-hidden="true"></i>
                 </span>
+                <FontAwesomeIcon icon={faGithub} />
                 <span className={styles.text}>
-                  <a href="https://github.com/icp049">icp049</a>
+               
+                  <a href="https://github.com/icp049"> icp049</a>
+                  
                 </span>
               </li>
               <li>
                 <span className={styles.icon}>
                   <i className="fa fa-instagram" aria-hidden="true"></i>
                 </span>
-                <span className={styles.text}>@ianpedeglorio</span>
+                <FontAwesomeIcon icon={faInstagram} />
+                <span className={styles.text}> @ianpedeglorio</span>
               </li>
             </ul>
           </div>
@@ -80,10 +91,10 @@ const Resume = () => {
             <h3 className={styles.title}>Languages</h3>
             <ul>
               <li>C++</li>
-              <li>C#</li>
-              <li>Javascript including reactJS Framework</li>
-              <li>SQL</li>
-              <li>Some PHP</li>
+              <li>Embedded C</li>
+              <li>Javascript</li>
+              <li>Python</li>
+              <li>PHP</li>
             </ul>
           </div>
 
@@ -108,7 +119,7 @@ const Resume = () => {
           <div className={styles.cert_info}>
             <h3 className={styles.title}>Certifications</h3>
             <ul>
-              <li>AWS Developer: Associate</li>
+              
               <li>Basic GIS Course Completion Certificate</li>
             </ul>
           </div>
