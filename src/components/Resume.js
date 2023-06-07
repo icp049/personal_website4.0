@@ -146,7 +146,7 @@ const Resume = () => {
           <div className={styles.about}>
             <h3 className={styles.title2}>Professional Summary</h3>
             <p>
-              As a motivated entry-level software developer, I am eager to immerse myself in a dynamic professional development environment where I can continuously learn, grow, and make meaningful and substantial contributions in the fields of Embedded Engineering, IoT, Web Development, and Cloud Computing.
+              As a motivated software developer, I am eager to immerse myself in a dynamic professional development environment where I can continuously learn, grow, and make meaningful and substantial contributions in the fields of Embedded Engineering, IoT, Web Development, and Cloud Computing.
             </p>
           </div>
 

@@ -12,7 +12,7 @@ const Home = () => {
         Your browser does not support the video tag.
       </video>
       <div className={styles.content}>
-        <h1 className={styles.centeredHeading}>Pepe.</h1>
+        <h1 className={styles.centeredHeading}>IJCP.</h1>
       </div>
       <div className={styles.iconContainer}>
         <div className={styles.iconRow}>

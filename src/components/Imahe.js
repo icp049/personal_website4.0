@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Imahe.module.css';
 import image1 from '../images/image1.jpg';
 import people from '../images/people.jpg';
 import kalye from '../images/kalye.jpg';
 import moments from '../images/moments.jpg';
+import Travel from './Travel';
 
 function Imahe() {
+  const [showTravel, setShowTravel] = useState(false);
+
+  const openTravelPopup = () => {
+    setShowTravel(true);
+  };
+
+  const closeTravelPopup = () => {
+    setShowTravel(false);
+  };
+
   return (
     <div className={styles.wrapper}>
       <header>
@@ -20,7 +31,7 @@ function Imahe() {
           <div className={styles['gallery-container']}>
             <div className={styles['gallery-item']}>
               <div className={styles.image}>
-                <a href="general.html">
+                <a href="#travel" onClick={openTravelPopup}>
                   <img src={image1} alt="" />
                 </a>
               </div>
@@ -54,6 +65,14 @@ function Imahe() {
           </div>
         </div>
       </section>
+
+      {showTravel && (
+        <div className={styles.popup}>
+          <div className={styles.popupContent}>
+            <Travel onClose={closeTravelPopup} />
+          </div>
+        </div>
+      )}
 
       <hr />
     </div>
