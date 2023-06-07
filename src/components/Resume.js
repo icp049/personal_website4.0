@@ -16,7 +16,7 @@ const Resume = () => {
             <h2>
               Ian Jericho Pedeglorio
               <br />
-              <span>Entry-Level Developer</span>
+              <span>Developer</span>
             </h2>
           </div>
 
@@ -86,44 +86,61 @@ const Resume = () => {
             </ul>
           </div>
 
-          {/* Languages section */}
-          <div className={styles.language_info}>
-            <h3 className={styles.title}>Languages</h3>
-            <ul>
-              <li>C++</li>
-              <li>Embedded C</li>
-              <li>Javascript</li>
-              <li>Python</li>
-              <li>PHP</li>
-            </ul>
-          </div>
-
-          {/* Technical Skills section */}
-          <div className={styles.skills_info}>
-            <h3 className={styles.title}>Technical Skills</h3>
-            <ul>
-              <li>Electronics: PCB Design, Circuits, Instruments, Soldering</li>
-              <li>Computer Architecture</li>
-              <li>Exposure to ARM</li>
-              <li>Exposure to AWS</li>
-              <li>Working knowledge of SQL</li>
-              <li>Shell</li>
-              <li>UX/UI Design</li>
-              <li>Adobe Creative Cloud</li>
-              <li>AutoCAD</li>
-              <li>ArcGIS</li>
-            </ul>
-          </div>
+        
+          
 
           {/* Certifications section */}
           <div className={styles.cert_info}>
             <h3 className={styles.title}>Certifications</h3>
             <ul>
               
-              <li>Basic GIS Course Completion Certificate</li>
+              <li>GIS Course Completion Certificate</li>
             </ul>
           </div>
+
+          <div className={styles.language_container}>
+            <h3 className={styles.title}>Language Familiarity</h3>
+            <br />
+            <div className={styles['skill-box']}>
+              <span className={styles.skill}>C++</span>
+              <div className={styles['skill-bar']}>
+                <span className={styles['skill-per1']}>
+                  
+                </span>
+              </div>
+
+              <span className={styles.skill}>JavaScript</span>
+              <div className={styles['skill-bar']}>
+                <span className={styles['skill-per2']}>
+                  
+                </span>
+              </div>
+
+              <span className={styles.skill}>Swift</span>
+              <div className={styles['skill-bar']}>
+                <span className={styles['skill-per3']}>
+                  
+                </span>
+              </div>
+
+              <span className={styles.skill}>Python</span>
+              <div className={styles['skill-bar']}>
+                <span className={styles['skill-per6']}>
+                  
+                </span>
+              </div>
+            </div>
+          </div>
+
+
+
+
         </div>
+
+
+        
+
+
 
         <div className={styles.right_side}>
           <div className={styles.about}>
@@ -133,39 +150,26 @@ const Resume = () => {
             </p>
           </div>
 
-          <div className={styles.language_container}>
-            <h3 className={styles.title2}>Language Familiarity</h3>
-            <br />
-            <div className={styles['skill-box']}>
-              <span className={styles.skill}>C#</span>
-              <div className={styles['skill-bar']}>
-                <span className={styles['skill-per1']}>
-                  <span className={styles.tooltip1}>60%</span>
-                </span>
-              </div>
 
-              <span className={styles.skill}>C++</span>
-              <div className={styles['skill-bar']}>
-                <span className={styles['skill-per2']}>
-                  <span className={styles.tooltip2}>85%</span>
-                </span>
-              </div>
+          <div className={styles.skills_info}>
+  <h3 className={styles.title2}>Relevant Skills</h3>
+  <p><strong>Languages: </strong> C++ &#8226; Javascript &#8226; Swift &#8226; Embedded C &#8226; Python
+  &#8226; some Verilog   </p>
+    <p><strong>Frameworks: </strong>React &#8226; React Native &#8226; Vue &#8226; NodeJS &#8226; Express
+    SpringBoot &#8226; JSON &#8226; TailwindCSS</p>
+    <p><strong>Database: </strong> SQL &#8226; MySQL &#8226; MongoDB</p>
+    <p><strong>Tools & Technologies:</strong>Docker &#8226; OpenCV &#8226; npm &#8226; Arduino &#8226; Android Studio &#8226; Jupyter Notebooks &#8226; PyCharm &#8226; Github &#8226;
+    Jira &#8226; Figma &#8226; Visual Studio &#8226; Putty &#8226; Ubuntu &#8226; XCode</p>
+    <p><strong>Caas:</strong>AWS &#8226; Firebase</p>
+    <p><strong>Operating Systems:</strong> Linux &#8226; Windows &#8226; MacOS</p>
+    <p><strong>Electonics:</strong> PCB Design &#8226 ;Microcontroller Boards &#8226; Instruments &#8226; Circuit design/analysis
+    &#8226; Soldering</p>
+    <p><strong>Other SKills:</strong> AutoCAD &#8226; ArcGIS &#8226; Adobe Creative Tools &#8226; PowerBI</p>
+  </div>
 
-              <span className={styles.skill}>Javascript</span>
-              <div className={styles['skill-bar']}>
-                <span className={styles['skill-per3']}>
-                  <span className={styles.tooltip3}>70%</span>
-                </span>
-              </div>
 
-              <span className={styles.skill}>SQL</span>
-              <div className={styles['skill-bar']}>
-                <span className={styles['skill-per6']}>
-                  <span className={styles.tooltip6}>80%</span>
-                </span>
-              </div>
-            </div>
-          </div>
+
+          
 
           {/* Relevant Work Experience section */}
           <div className={styles.experience_container}>

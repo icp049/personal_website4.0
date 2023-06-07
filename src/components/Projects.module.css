@@ -7,16 +7,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+ 
 }
 
 .background-image {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  
+ 
+ 
+ 
+ 
+ 
+
 }
 
 .title {
@@ -40,6 +46,10 @@
   font-size: 16px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  border: solid black 4px;
+  border-radius: 13px;
+  width: 300px;
+  height: 70px;
 }
 
 .projectbutton a {
@@ -50,4 +60,5 @@
 
 .projectbutton:hover {
   transform: translateX(-50%) translateY(-5px);
+  
 }
