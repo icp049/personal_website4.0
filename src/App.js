@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Resume />
       <Imahe />
-      <Travel />
+      
      
     </div>
   );

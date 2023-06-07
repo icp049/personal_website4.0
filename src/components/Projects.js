@@ -35,7 +35,7 @@ const Projects = () => {
   };
 
   return (
-    <div className={styles.container} style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className={styles.container} style={{ backgroundImage: `url(${backgroundImage})` }} id = 'projects'>
       <div className={styles.projects}>
       <div className={styles.buttonContainer}>
         <button className={styles.projectbutton}>

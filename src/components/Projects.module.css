@@ -9,7 +9,7 @@
   align-items: center;
 }
 .gridContainer {
-  margin: 20px;
+  margin: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
   gap: 20px; /* Adjust the gap between grid items */
@@ -17,17 +17,17 @@
 }
 
 .gridItem {
-  padding: 20px;
-  background-color: #292525;
+  padding: 15px;
+  background-color: #cec3c3;
   border-radius: 15px;
-  border: solid 2px rgb(228, 222, 222);
+  border: solid 3px rgb(26, 24, 24);
   text-align: center;
   text-decoration: none;
-  color: #f1e8e8;
+  color: #181717;
 }
 
 .gridItem:hover {
-  background-color: #a8531b;
+  background-color: #ecb90e;
 }
 
 

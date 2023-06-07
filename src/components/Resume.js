@@ -7,7 +7,7 @@ import ian from '../images/profile.jpg';
 const Resume = () => {
   return (
   
-      <div className={styles.container}>
+      <div className={styles.container} id = 'resume'>
         <div className={styles.left_side}>
           <div className={styles.profile_text}>
             <div className={styles.image}>
@@ -159,11 +159,11 @@ const Resume = () => {
     <p><strong>Frameworks: </strong>React &#8226; React Native &#8226; Vue &#8226; NodeJS &#8226; Express
     SpringBoot &#8226; JSON &#8226; TailwindCSS</p>
     <p><strong>Database: </strong> SQL &#8226; MySQL &#8226; MongoDB</p>
-    <p><strong>Tools & Technologies:</strong>Docker &#8226; OpenCV &#8226; npm &#8226; Arduino &#8226; Android Studio &#8226; Jupyter Notebooks &#8226; PyCharm &#8226; Github &#8226;
+    <p><strong>Tools & Technologies:</strong> Docker &#8226; OpenCV &#8226; npm &#8226; Arduino &#8226; Android Studio &#8226; Jupyter Notebooks &#8226; PyCharm &#8226; Github &#8226;
     Jira &#8226; Figma &#8226; Visual Studio &#8226; Putty &#8226; Ubuntu &#8226; XCode</p>
     <p><strong>Caas:</strong>AWS &#8226; Firebase</p>
     <p><strong>Operating Systems:</strong> Linux &#8226; Windows &#8226; MacOS</p>
-    <p><strong>Electonics:</strong> PCB Design &#8226 ;Microcontroller Boards &#8226; Instruments &#8226; Circuit design/analysis
+    <p><strong>Electonics:</strong> PCB Design &#8226; Microcontroller Boards &#8226; Instruments &#8226; Circuit design/analysis
     &#8226; Soldering</p>
     <p><strong>Other SKills:</strong> AutoCAD &#8226; ArcGIS &#8226; Adobe Creative Tools &#8226; PowerBI</p>
   </div>
