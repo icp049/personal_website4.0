@@ -71,8 +71,9 @@
     }
 
     .nav-menu {
+        
         position: fixed;
-        left: -100%;
+        left: 120%;
         top: 90px;
         flex-direction: column;
         background-color: rgba(0,0,0,.9);
@@ -81,14 +82,23 @@
         z-index: 999;
         text-align: center;
         transition: .3s;
+
+
+        
     }
 
     .nav-menu.active {
         left: 0;
+
+        
+        
     }
 
     .nav-item {
+       
         margin: 1.5rem 0;
+
+        
     }
 
     .header .navbar img {
