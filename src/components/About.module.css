@@ -40,7 +40,15 @@
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
+    
   }
+
+  .about h1,
+.about h2,
+.about h3,
+.about p {
+  color: black;
+}
   
   .about button {
     margin-top: 1rem;

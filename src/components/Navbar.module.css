@@ -1,13 +1,13 @@
 .header {
     position: fixed;
-    height: 60px;
+    height: 47px;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(54, 52, 52, 0.9);
    
 }
 
@@ -33,6 +33,7 @@
 
 .header .nav-menu {
     display: flex;
+    list-style: none;
 }
 
 .header .nav-item {

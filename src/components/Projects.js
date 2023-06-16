@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Projects.module.css';
-import backgroundImage from '../images/background.jpg' 
+
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -35,7 +35,7 @@ const Projects = () => {
   };
 
   return (
-    <div className={styles.container} style={{ backgroundImage: `url(${backgroundImage})` }} id = 'projects'>
+    <div className={styles.container}>
       <div className={styles.projects}>
       <div className={styles.buttonContainer}>
         <button className={styles.projectbutton}>

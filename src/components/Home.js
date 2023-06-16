@@ -1,18 +1,17 @@
-import React from 'react';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import styles from './Home.module.css';
-import videoFile from '../videos/abstract.mp4';
+
+
 
 const Home = () => {
+
   return (
     <div className={styles.home}>
-      <video className={styles['background-video']} autoPlay loop muted>
-        <source src={videoFile} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      
       <div className={styles.content}>
-        <h1 className={styles.centeredHeading}>IJCP</h1>
+        <h1 className={styles.centeredHeading}>IJCP.</h1>
       </div>
       <div className={styles.iconContainer}>
         <div className={styles.iconRow}>
@@ -22,8 +21,6 @@ const Home = () => {
           <a href="https://www.instagram.com/ianpedeglorio/?hl=en">
             <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
           </a>
-       
-      
           <a href="https://github.com/icp049">
             <FontAwesomeIcon icon={faGithub} className={styles.icon} />
           </a>
@@ -31,7 +28,9 @@ const Home = () => {
             <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
           </a>
         </div>
-      </div>
+        
+        </div>
+     
     </div>
   );
 }
