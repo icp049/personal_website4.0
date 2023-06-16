@@ -1,5 +1,8 @@
 .about {
-    background-color: white;
+   background-image: url('../images/aboutbackground.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
     margin: auto;
     padding: 0;
     width: 100%;

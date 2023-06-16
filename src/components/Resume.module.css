@@ -486,6 +486,25 @@ color: teal;
     }
 
 
+    @media (max-width: 1100px) {
+        .container {
+            grid-template-columns: 1fr; /* Show components in a single column */
+        }
+    
+        .container .left_side,
+        .container .right_side {
+            padding: 20px; /* Decrease padding to fit the smaller screen */
+        }
+    
+        .profile_text {
+            padding-bottom: 10px; /* Decrease padding to fit the smaller screen */
+        }
+    
+        .profile_text .image {
+            width: 200px;
+        }
+    }
+
   
     
     

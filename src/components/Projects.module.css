@@ -5,6 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../images/projectbackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .gridContainer {
@@ -24,7 +28,7 @@
 
 .gridItem {
   padding: 15px;
-  background-color: #575454;
+  background-color: #f5ecec;
   border-radius: 15px;
   border: solid 3px rgb(5, 3, 3);
   text-align: center;
