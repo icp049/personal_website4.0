@@ -7,11 +7,18 @@ const ImaheLaunch = () => {
    <div className = "launchcontainer">
         <div className = "launchcontainertitle">
               <h1 className = "launchcontainerh1">
-                YE
+                Imahe.
               </h1>
 
+
+              <h5 className = "launchcontainerh5">
+
+               A photo portfolio by Ian Pedeglorio
+
+              </h5>
+
               <button className = "launchcontainerbutton">
-                ye motherfucker
+              Explore
               </button>
           </div>
    </div>
