@@ -4,7 +4,7 @@ import "./Imahelaunch.css";
 
 const ImaheLaunch = () => {
   return (
-   <div className = "launchcontainer">
+   <div className = "launchcontainer" id = "imahe">
         <div className = "launchcontainertitle">
               <h1 className = "launchcontainerh1">
                 Imahe.
@@ -13,7 +13,7 @@ const ImaheLaunch = () => {
 
               <h5 className = "launchcontainerh5">
 
-               A photo portfolio by Ian Pedeglorio
+               A portfolio by Ian Pedeglorio
 
               </h5>
 

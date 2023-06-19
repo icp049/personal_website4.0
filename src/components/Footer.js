@@ -11,7 +11,7 @@ const Footer = () => {
 };
 
 const footerStyle = {
-  backgroundColor: 'rgba(0, 0, 0, 0.8)',
+  backgroundColor: 'rgba(0,0,0,.7)',
   color: '#fff',
   padding: '20px',
 };

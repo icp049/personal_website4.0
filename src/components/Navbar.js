@@ -27,10 +27,13 @@ const Navbar = () => {
             <a href='#about' onClick={closeMenu}>About</a>
           </li>
           <li className={styles['nav-item']}>
+            <a href='#projects' onClick={closeMenu}>Projects</a>
+          </li>
+          <li className={styles['nav-item']}>
             <a href='#resume' onClick={closeMenu}>Online Resume</a>
           </li>
           <li className={styles['nav-item']}>
-            <a href='#projects' onClick={closeMenu}>Projects</a>
+            <a href='#imahe' onClick={closeMenu}>Imahe</a>
           </li>
         </ul>
       </nav>
