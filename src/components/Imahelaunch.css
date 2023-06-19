@@ -1,39 +1,64 @@
-.slideshow-container {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
+.launchcontainer{
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes animate
+{
+  0%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  20%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  40%{
+    background-image: url(../images/Imahebackground.jpg);
+  }
+  60%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  80%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+  100%{
+    background-image: url(../imahelaunchimages/_MG_2939.jpg);
+  }
+}
+
+.launchcontainertitle {
+  text-align: center;
   }
   
-  .slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 0.5s;
+  .launchcontainerh1 {
+  color: #333; /* Adjust the color as needed /
+  font-size: 32px; / Adjust the font size as needed */
   }
   
-  .slide.active {
-    opacity: 1;
+  .launchcontainerbutton {
+  background-color: #333; /* Adjust the background color as needed /
+  color: #fff; / Adjust the text color as needed /
+  font-size: 16px; / Adjust the font size as needed /
+  padding: 10px 20px; / Adjust the padding as needed */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   }
-  
-  .button-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .centered-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #337ab7;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  

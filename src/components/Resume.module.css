@@ -218,7 +218,7 @@ color: teal;
         height: 100%;
         width: 75%;          /*change this according to percentage of skill */
         border-radius: 6px;
-        background: green;
+        background: yellow;
         animation: progress 2s ease-in-out forwards;
         opacity: 0;
     }
@@ -229,7 +229,7 @@ color: teal;
         height: 100%;
         width: 85%;          /*change this according to percentage of skill */
         border-radius: 6px;
-        background: green;
+        background: yellow;
         animation: progress 2s ease-in-out forwards;
         opacity: 0;
     }
@@ -241,7 +241,7 @@ color: teal;
         height: 100%;
         width: 65%;          /*change this according to percentage of skill */
         border-radius: 6px;
-        background: green;
+        background: yellow;
         animation: progress 2s ease-in-out forwards;
         opacity: 0;
     }
@@ -253,7 +253,7 @@ color: teal;
         height: 100%;
         width: 90%;          /*change this according to percentage of skill */
         border-radius: 6px;
-        background: green;
+        background: yellow;
         animation: progress 2s ease-in-out forwards;
         opacity: 0;
     }
@@ -265,7 +265,7 @@ color: teal;
         height: 100%;
         width: 70%;          /*change this according to percentage of skill */
         border-radius: 6px;
-        background: green;
+        background: yellow;
         animation: progress 2s ease-in-out forwards;
         opacity: 0;
     }
@@ -277,7 +277,7 @@ color: teal;
         height: 100%;
         width: 65%;          /*change this according to percentage of skill */
         border-radius: 6px;
-        background: green;
+        background: yellow;
         animation: progress 2s ease-in-out forwards;
         opacity: 0;
     }

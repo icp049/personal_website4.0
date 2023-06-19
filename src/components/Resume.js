@@ -11,7 +11,7 @@ const Resume = () => {
         <div className={styles.left_side}>
           <div className={styles.profile_text}>
             <div className={styles.image}>
-              <img src={ian} />
+              <img src={ian} alt = "haha" />
             </div>
             <h2>
               Ian Jericho Pedeglorio
