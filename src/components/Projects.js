@@ -45,13 +45,13 @@ const Projects = () => {
       <div className={styles.contributions}>
         <h2>Your Contributions in the Last 3 Months</h2>
         <div className={styles.contributionGrid}>
-          {contributions.map((contribution, index) => (
-            <div
-              key={index}
-              className={styles.contributionBox}
-              style={{ backgroundColor: contribution.color }}
-            ></div>
-          ))}
+          {Array.isArray(contributions) && contributions.map((contribution, index) => (
+  <div
+    key={index}
+    className={styles.contributionBox}
+    style={{ backgroundColor: contribution.color }}
+  ></div>
+))}
         </div>
       </div>
       <div className={styles.projects}>
