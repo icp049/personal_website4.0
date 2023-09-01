@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Imahelaunch.css";
-import Modal from "./ImaheModal.js"; // Import the Modal component
+import Modal from "./ImaheModal.js"; 
+
 
 const ImaheLaunch = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

@@ -90,3 +90,29 @@
   }
 }
 
+/* Add this CSS for the contributions container */
+.contributions {
+  margin-bottom: 20px; /* Add margin to separate it from the projects */
+  text-align: center;
+   z-index:90;
+}
+
+.contributions h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contributionGrid {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add margin to separate it from the projects */
+}
+
+.contributionBox {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  background-color: green; /* Set the color to match GitHub's contribution boxes */
+  border-radius: 3px; /* Add rounded corners */
+  flex-shrink: 0; /* Prevent contributions from shrinking */
+}

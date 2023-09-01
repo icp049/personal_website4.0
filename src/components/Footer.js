@@ -5,6 +5,7 @@ const Footer = () => {
     <footer style={footerStyle}>
       <div style={contentStyle}>
         <p style={textStyle}>© 2023 Ian Jericho Pedeglorio. All rights reserved.</p>
+        
       </div>
     </footer>
   );
