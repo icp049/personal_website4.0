@@ -2,17 +2,17 @@
 
 import React, { useState, useEffect } from "react";
 import styles from "./Projects.module.css";
+import lottie from 'lottie-web';
+import yourLottieAnimation from '../lottie/typing.json'; // Replace with the actual path
+
+
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-  const [contributions, setContributions] = useState([]);
+
 
   useEffect(() => {
-    // Fetch your GitHub contributions
-    fetch("https://api.github.com/users/icp049/contributions")
-      .then((response) => response.json())
-      .then((data) => setContributions(data))
-      .catch((error) => console.log(error));
+ 
 
     // Fetch your GitHub repositories
     fetch(
@@ -20,8 +20,21 @@ const Projects = () => {
     )
       .then((response) => response.json())
       .then((data) => setProjects(data.slice(0, 9)))
-      .catch((error) => console.log(error));
+      .catch((error) => console.log(error))    
+
   }, []);
+
+
+  const animationContainer = document.getElementById('lottie-container');
+  if (animationContainer) {
+    lottie.loadAnimation({
+      container: animationContainer,
+      animationData: yourLottieAnimation, // Replace with the actual animation data
+      renderer: 'svg', // or 'canvas' or 'html'
+      loop: true,
+      autoplay: true,
+    });
+  } 
 
   const getLanguageIcon = (language) => {
     switch (language) {
@@ -87,10 +100,11 @@ const Projects = () => {
   return (
     <div className={styles.container} id="projects">
       <div className={styles.projects}>
-        <h1>I'm currently working on....</h1>
+        <h1>I'm currently working on . . . .</h1>
+        <div id="lottie-container" className={styles.lottieContainer}></div>
         <div className={styles.buttonContainer}>
           <button className={styles.projectbutton}>
-            <a href="https://github.com/icp049">Explore Ongoing Projects</a>
+            <a href="https://github.com/icp049">Explore Projects</a>
           </button>
         </div>
         <div className={styles.gridContainer}>

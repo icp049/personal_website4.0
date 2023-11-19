@@ -10,6 +10,13 @@
   background-position: center;
 }
 
+.container h1{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .gridContainer {
   margin: 20px 20px px;
   display: grid;
@@ -91,3 +98,7 @@
   }
 }
 
+.lottieContainer{
+  width: 300px;  
+  height: 300px;
+}
