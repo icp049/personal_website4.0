@@ -146,7 +146,8 @@ const Resume = () => {
           <div className={styles.about}>
             <h3 className={styles.title2}>Professional Summary</h3>
             <p>
-              As a motivated software developer, I am eager to immerse myself in a dynamic professional development environment where I can continuously learn, grow, and make meaningful and substantial contributions in the fields of Embedded Engineering, IoT, Web Development, and Cloud Computing.
+            I am eager to immerse myself in a dynamic professional development environment where I can continuously learn,
+grow, and make substantial contributions in the fields of Software Development and Embedded Systems.
             </p>
           </div>
 
@@ -154,18 +155,15 @@ const Resume = () => {
           <div className={styles.skills_info}>
   <h3 className={styles.title2}>Relevant Skills</h3>
   <br />
-  <p><strong>Languages: </strong> C++ &#8226; Javascript &#8226; Swift &#8226; Embedded C &#8226; Python
-  &#8226; some Verilog   </p>
-    <p><strong>Frameworks: </strong>React &#8226; React Native &#8226; Vue &#8226; NodeJS &#8226; Express
-    SpringBoot &#8226; JSON &#8226; TailwindCSS</p>
-    <p><strong>Database: </strong> SQL &#8226; MySQL &#8226; MongoDB</p>
+  <p><strong>Programming Languages: </strong> C++ &#8226; Javascript &#8226; Swift &#8226; Python </p>
+    <p><strong>Development Stack: </strong>React &#8226; React Native &#8226; Vue &#8226; NodeJS &#8226; ExpressJS &#8226; JSON &#8226; TailwindCSS &#8226; Redux &#8226; Redis &#8226; SwiftUI &#8226; CoreData    </p>
+    <p><strong>Databases: </strong> SQL &#8226; MySQL &#8226; MongoDB  &#8226; Google FIrebase &#8226; AWS</p>
     <p><strong>Tools & Technologies:</strong> Docker &#8226; OpenCV &#8226; npm &#8226; Arduino &#8226; Android Studio &#8226; Jupyter Notebooks &#8226; PyCharm &#8226; Github &#8226;
     Jira &#8226; Figma &#8226; Visual Studio &#8226; Putty &#8226; Ubuntu &#8226; XCode</p>
-    <p><strong>Caas:</strong>AWS &#8226; Firebase</p>
     <p><strong>Operating Systems:</strong> Linux &#8226; Windows &#8226; MacOS</p>
     <p><strong>Electonics:</strong> PCB Design &#8226; Microcontroller Boards &#8226; Instruments &#8226; Circuit design/analysis
     &#8226; Soldering</p>
-    <p><strong>Other SKills:</strong> AutoCAD &#8226; ArcGIS &#8226; Adobe Creative Tools &#8226; PowerBI</p>
+    <p><strong>Other Skills:</strong> AutoCAD &#8226; ArcGIS &#8226; Adobe Creative Tools &#8226; Office 365  </p>
   </div>
 
 
