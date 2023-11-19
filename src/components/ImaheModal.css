@@ -1,0 +1,25 @@
+/* ImaheModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* Ensure the modal is on top of other elements */
+  }
+  
+  .modal-content {
+    background: #fff; /* White background for the modal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 3; /* Ensure the modal content is on top of the overlay */
+  }
+  
+  /* Add any other styling you need for your modal content here */
+  

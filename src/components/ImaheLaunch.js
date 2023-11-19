@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Imahelaunch.css";
-import Modal from "./ImaheModal.js"; 
-
+import ImaheModal from "./ImaheModal";
 
 const ImaheLaunch = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -10,7 +9,7 @@ const ImaheLaunch = () => {
     setIsModalOpen(true);
   };
 
-  const closeModal = () => {
+  const handleCloseModal = () => {
     setIsModalOpen(false);
   };
 
@@ -20,13 +19,16 @@ const ImaheLaunch = () => {
         <div className="launchcontainertitle">
           <h1 className="launchcontainerh1">Imahe.</h1>
           <h5 className="launchcontainerh5">A portfolio by Ian Pedeglorio</h5>
-          <button className="launchcontainerbutton" onClick={handleExploreClick}>
+          <button
+            className="launchcontainerbutton"
+            onClick={handleExploreClick}
+          >
             Explore
           </button>
         </div>
       </div>
 
-      {isModalOpen && <Modal closeModal={closeModal} />} 
+      {isModalOpen && <ImaheModal onClose={handleCloseModal} />}
     </>
   );
 };
