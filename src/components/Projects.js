@@ -42,18 +42,6 @@ const Projects = () => {
 
   return (
     <div className={styles.container} id="projects">
-      <div className={styles.contributions}>
-        <h2>Your Contributions in the Last 3 Months</h2>
-        <div className={styles.contributionGrid}>
-          {Array.isArray(contributions) && contributions.map((contribution, index) => (
-  <div
-    key={index}
-    className={styles.contributionBox}
-    style={{ backgroundColor: contribution.color }}
-  ></div>
-))}
-        </div>
-      </div>
       <div className={styles.projects}>
         <div className={styles.buttonContainer}>
           <button className={styles.projectbutton}>
