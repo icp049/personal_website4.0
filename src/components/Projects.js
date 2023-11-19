@@ -2,14 +2,11 @@
 
 import React, { useState, useEffect } from "react";
 import styles from "./Projects.module.css";
-import lottie from 'lottie-web';
-import yourLottieAnimation from '../lottie/typing.json'; // Replace with the actual path
-
-
+import lottie from "lottie-web";
+import yourLottieAnimation from "../lottie/typing.json"; // Replace with the actual path
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
-
 
   useEffect(() => {
     // Fetch your GitHub repositories
@@ -21,22 +18,17 @@ const Projects = () => {
       .catch((error) => console.log(error));
 
     // Load Lottie animation when component mounts
-    const animationContainer = document.getElementById('lottie-container');
+    const animationContainer = document.getElementById("lottie-container");
     if (animationContainer && !animationContainer.hasChildNodes()) {
       lottie.loadAnimation({
         container: animationContainer,
         animationData: yourLottieAnimation, // Replace with the actual animation data
-        renderer: 'svg', // or 'canvas' or 'html'
+        renderer: "svg", // or 'canvas' or 'html'
         loop: true,
         autoplay: true,
       });
     }
   }, []); // Empty dependency array ensures that the effect runs only once
-
-
-
-
-
 
   const getLanguageIcon = (language) => {
     switch (language) {
@@ -102,7 +94,10 @@ const Projects = () => {
   return (
     <div className={styles.container} id="projects">
       <div className={styles.projects}>
+        <div className={styles.animation}>
           <div id="lottie-container" className={styles.lottieContainer}></div>
+        </div>
+
         <div className={styles.buttonContainer}>
           <button className={styles.projectbutton}>
             <a href="https://github.com/icp049">Explore Projects</a>

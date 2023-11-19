@@ -58,11 +58,11 @@
 }
 
 .buttonContainer {
-  padding-top: 20px; /* Add padding to the top */
+
   padding-bottom: 20px; /* Add padding to the bottom */
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+
   margin-bottom: 20px; /* Add margin to the bottom */
 }
 
@@ -103,4 +103,10 @@
 .lottieContainer{
   width: 500px;  
   
+}
+
+.animation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
