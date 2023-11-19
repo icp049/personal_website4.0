@@ -19,8 +19,8 @@
     max-width: auto; /* Set a maximum width if needed */
     background: #fff; /* White background for the modal */
     padding: 20px;
-    border-radius: 8px;
-    border: solid 3px black;
+    border-radius: 20px;
+    border: solid 5px black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 3; /* Ensure the modal content is on top of the overlay */
   }
