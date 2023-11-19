@@ -35,9 +35,9 @@ const ImaheModal = ({ onClose }) => {
             }}
           >
             <Tab label="ALL" value="all" />
-            <Tab label="NEW ARRIVALS" value="newArrivals" />
-            <Tab label="BEST SELLERS" value="bestSellers" />
-            <Tab label="TOP RATED" value="topRated" />
+            <Tab label="FILM" value="newArrivals" />
+            <Tab label="PLACES" value="bestSellers" />
+            <Tab label="PEOPLE" value="topRated" />
           </Tabs>
           <Box
             display="grid"
