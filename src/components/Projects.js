@@ -12,29 +12,31 @@ const Projects = () => {
 
 
   useEffect(() => {
- 
-
     // Fetch your GitHub repositories
     fetch(
       "https://api.github.com/users/icp049/repos?sort=created&direction=desc"
     )
       .then((response) => response.json())
       .then((data) => setProjects(data.slice(0, 9)))
-      .catch((error) => console.log(error))    
+      .catch((error) => console.log(error));
 
-  }, []);
+    // Load Lottie animation when component mounts
+    const animationContainer = document.getElementById('lottie-container');
+    if (animationContainer && !animationContainer.hasChildNodes()) {
+      lottie.loadAnimation({
+        container: animationContainer,
+        animationData: yourLottieAnimation, // Replace with the actual animation data
+        renderer: 'svg', // or 'canvas' or 'html'
+        loop: true,
+        autoplay: true,
+      });
+    }
+  }, []); // Empty dependency array ensures that the effect runs only once
 
 
-  const animationContainer = document.getElementById('lottie-container');
-  if (animationContainer) {
-    lottie.loadAnimation({
-      container: animationContainer,
-      animationData: yourLottieAnimation, // Replace with the actual animation data
-      renderer: 'svg', // or 'canvas' or 'html'
-      loop: true,
-      autoplay: true,
-    });
-  } 
+
+
+
 
   const getLanguageIcon = (language) => {
     switch (language) {
@@ -100,8 +102,7 @@ const Projects = () => {
   return (
     <div className={styles.container} id="projects">
       <div className={styles.projects}>
-        <h1>I'm currently working on . . . .</h1>
-        <div id="lottie-container" className={styles.lottieContainer}></div>
+          <div id="lottie-container" className={styles.lottieContainer}></div>
         <div className={styles.buttonContainer}>
           <button className={styles.projectbutton}>
             <a href="https://github.com/icp049">Explore Projects</a>

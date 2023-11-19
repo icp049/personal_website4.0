@@ -10,22 +10,18 @@
   background-position: center;
 }
 
-.container h1{
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .gridContainer {
   margin: 20px 20px px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
   padding-right: 20px;
   padding-left: 20px;
 }
+
 @media (min-width: 1100px) {
   .gridContainer {
     grid-template-columns: repeat(
@@ -33,6 +29,12 @@
       1fr
     ); /* Keep the original grid template for larger screens */
   }
+
+  .lottieContainer{
+    width: 300px;  
+    
+  }
+
 }
 
 .gridItem {
@@ -99,6 +101,6 @@
 }
 
 .lottieContainer{
-  width: 300px;  
-  height: 300px;
+  width: 500px;  
+  
 }
