@@ -19,9 +19,6 @@ const ImaheModal = ({ onClose }) => {
         </span>
         {/* Add your modal content here */}
         <Box width="80%" margin="40px auto">
-          <Typography variant="h3" textAlign="center" mb={3}>
-            <b>Imahe</b>
-          </Typography>
           <Tabs
             value={value}
             onChange={handleChange}
@@ -45,10 +42,7 @@ const ImaheModal = ({ onClose }) => {
             gap={3}
             justifyContent="space-around"
           >
-            {/* Add your grid items here */}
-            <div>Product 1</div>
-            <div>Product 2</div>
-            {/* Add more product items as needed */}
+            
           </Box>
         </Box>
       </div>
