@@ -174,31 +174,49 @@ grow, and make substantial contributions in the fields of Software Development a
           <div className={styles.experience_container}>
             <h3 className={styles.title3}>Relevant Work Experience</h3>
             <ul>
-                <h4>Engineering Assistant</h4>
-                <h5>JAMIC Engineering Services: 2017-2019</h5>
-                
-              <li><h6>Specialized in GIS Mapping using ARCGIS</h6></li>
-              <li><h6>Managed day-to-day operations, maintaining records, to provide high-level support</h6></li>
-              <li><h6>Provided valuable support to lead engineers on a range of zoning and urban planning projects</h6></li>
-              <li><h6>Team and client coordination</h6></li>
-              
-              <br />
-             
-                <h4>Software Development Contributor</h4>
-                <h5>2021-2023</h5>
-                <li> <h6>Collaborated effectively with developers and other stakeholders with a strong understanding of software development processes and project management in Github repositories and Jira</h6></li>
-                <li> <h6>Website projects for business startups</h6></li>
-                <li> <h6>Contributed to front-end development using HTML, CSS, and Javascript to build visually appealing and functional websites that meet clients' needs</h6></li>
-                <li> <h6>Created Windows form applications using C# (Frontend and backend)</h6></li>
-                <li> <h6>Working knowledge of SQL, demonstrated proficiency in database design and building custom database solutions that are optimized for performance, security, and data integrity</h6></li>
-                <li> <h6>Website deployment in AWS. Worked with technologies such as Route53, DynamoDB, EC2, Lambda, and other AWS services</h6></li>
-              
-              <br />
-              
+
+            <h4>Junior Developer</h4>
+                <h5>Regina Public Library - City of Regina: Present</h5>
+
+                <br />
+
+
+            <h4>Developer/Contributor</h4>
+                <h5>2021-Present</h5>
+                <li> <h6>Utilized Javascript frontend and backend tools to create dynamic websites, e-commerce sites with CMS, peer-
+to-peer websites, chat apps, API design, database integrations, encryptions etc.</h6></li>
+                <li> <h6>Utilized C++ to create embedded systems projects utilizing libraries like opencv (e.g programmed LCD
+screens, Detectors, Intruder & Alarm Systems, RFID, Sensors, Utilization of comm protocols, etc.). </h6></li>
+                <li> <h6>Heavily used Swift and Javascript(React Native framework) to do mobile apps for fun -- made prototype clones
+of existing popular apps like instagram, twitter, messenger and uber.</h6></li>
+                <li> <h6>Created windows desktop applications using C# and sold it for extra money. (e.g Admin Portal and Reservation
+System for small motels)</h6></li>
+                <li> <h6>Working knowledge of SQL/NoSQL tools, built custom database solutions that meet clients’ needs, tuned and
+optimized it before implementing inside web/mobile applications.</h6></li>
+                <li> <h6>Experience with cloud utilization and  deployment </h6></li>
+               
+                <br />
+
+          
                 <h4>Coding Instructor</h4>
                 <h5>YesWeCode: 2022-2023</h5>
                 <li>  <h6>Experienced programming tutor offering personalized instruction in web development, Python, Scratch, and block coding to help students achieve their programming goals.</h6></li>
                 <li> <h6>Volunteering in a non-profit organization: Hakili Community for Sustainable Development</h6></li>
+              
+              <br />
+             
+                
+              <h4>Engineering Assistant</h4>
+                <h5>JAMIC Engineering Services: 2017-2019</h5>
+                
+              <li><h6>Utilized python and matplotlib to analyze a wide range of urban layout data and visualized it for presentations.</h6></li>
+              <li><h6>Heavily utilized SQL to create and update new and existing tabular records -- worked with thousands of data
+
+involving property locations, development types, infrastructures, addresses etc.</h6></li>
+              <li><h6>Specialized in GIS mapping using ARCGIS. Zone mapped satellite images and turned them into visual graphs.</h6></li>
+              <li><h6>Managed day-to-day operations and maintained records for the engineering team and existing clients.</h6></li>
+              <li><h6> Provided high level support to lead engineers on zoning and urban planning projects.</h6></li>
+              
              
             </ul>
           </div>
@@ -210,7 +228,7 @@ grow, and make substantial contributions in the fields of Software Development a
 
 
                     <h4>Part Time D3 Driver</h4>
-                <h5>FedEx: 2022-Present</h5>
+                <h5>FedEx: 2022-2023</h5>
               <li> <h6>Day to day operations consisting of deliveries and driving</h6></li>
               <li>   <h6>Warehouse activities involving sorting pre/post delivery</h6></li>
               <br />
