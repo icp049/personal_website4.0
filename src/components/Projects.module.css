@@ -1,11 +1,10 @@
 .container {
- 
   background-color: white;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/projectbackground.jpg');
+  background-image: url("../images/projectbackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,12 +16,15 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding-bottom: 20px;
-  padding-right:20px;
-  padding-left:20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 @media (min-width: 1100px) {
   .gridContainer {
-    grid-template-columns: repeat(3, 1fr); /* Keep the original grid template for larger screens */
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Keep the original grid template for larger screens */
   }
 }
 
@@ -54,7 +56,6 @@
   margin-top: 20px;
   margin-bottom: 20px; /* Add margin to the bottom */
 }
-
 
 .projectbutton {
   padding: 10px 20px;
@@ -90,29 +91,3 @@
   }
 }
 
-/* Add this CSS for the contributions container */
-.contributions {
-  margin-bottom: 20px; /* Add margin to separate it from the projects */
-  text-align: center;
-   z-index:90;
-}
-
-.contributions h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.contributionGrid {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px; /* Add margin to separate it from the projects */
-}
-
-.contributionBox {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-  background-color: green; /* Set the color to match GitHub's contribution boxes */
-  border-radius: 3px; /* Add rounded corners */
-  flex-shrink: 0; /* Prevent contributions from shrinking */
-}
