@@ -11,7 +11,7 @@ const dummyData = {
     // Add more items as needed
   ],
   film: [
-    { id: 3, category: 'film', image: 'path/to/image3.jpg' },
+    { id: 3, category: 'film', image: './MyImages/film1.jpg' },
     { id: 4, category: 'film', image: 'path/to/image4.jpg' },
     // Add more items as needed
   ],
