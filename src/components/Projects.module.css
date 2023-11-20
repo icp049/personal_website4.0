@@ -30,10 +30,7 @@
     ); /* Keep the original grid template for larger screens */
   }
 
-  .lottieContainer{
-    width: 300px;  
-    
-  }
+  
 
 }
 
@@ -100,13 +97,13 @@
   }
 }
 
-.lottieContainer{
-  width: 500px;  
-  
-}
+
 
 .animation{
   display: flex;
   justify-content: center;
   align-items: center;
+ 
+  
+ 
 }
