@@ -1,15 +1,15 @@
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import styles from './Home.module.css';
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import styles from "../stylesheets/Home.module.css";
 
 const Home = () => {
-
   return (
     <div className={styles.home}>
-      
       <div className={styles.content}>
         <h1 className={styles.centeredHeading}>IJCP.</h1>
       </div>
@@ -28,11 +28,9 @@ const Home = () => {
             <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />
           </a>
         </div>
-        
-        </div>
-     
+      </div>
     </div>
   );
-}
+};
 
 export default Home;
