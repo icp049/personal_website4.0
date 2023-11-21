@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Resume.module.css";
+import styles from "../stylesheets/Resume.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -221,8 +221,8 @@ const Resume = () => {
               {" "}
               <h6>
                 Working knowledge of SQL/NoSQL tools, built custom database
-                solutions that meet clients needs, tuned and optimized it
-                before implementing inside web/mobile applications.
+                solutions that meet clients needs, tuned and optimized it before
+                implementing inside web/mobile applications.
               </h6>
             </li>
             <li>

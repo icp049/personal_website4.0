@@ -1,7 +1,7 @@
-// ImaheModal.js
+
 import React, { useState } from 'react';
 import { Box, Typography, Tab, Tabs, useMediaQuery } from '@mui/material';
-import "./ImaheModal.css";
+import "../stylesheets/ImaheModal.css";
 
 // Dummy data for different categories
 const dummyData = {

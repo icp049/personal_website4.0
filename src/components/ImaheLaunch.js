@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Imahelaunch.css";
+import "../stylesheets/Imahelaunch.css";
 import ImaheModal from "./ImaheModal";
 
 const ImaheLaunch = () => {

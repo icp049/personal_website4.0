@@ -1,7 +1,7 @@
 // Projects.js
 
 import React, { useState, useEffect } from "react";
-import styles from "./Projects.module.css";
+import styles from "../stylesheets/Projects.module.css";
 import lottie from "lottie-web";
 import yourLottieAnimation from "../lottie/typing.json"; // Replace with the actual path
 

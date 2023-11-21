@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import styles from "./Navbar.module.css";
+import styles from "../stylesheets/Navbar.module.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
