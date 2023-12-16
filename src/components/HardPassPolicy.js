@@ -1,31 +1,13 @@
-import react from "react";
+import React from "react";
 
 
 const HardPassPolicy = () => {
     return(
 
 
-        <div className = {styles.PolicyContainer}>
+        <div>
 
-        <div className = {styles.apptitleContainer}>
-
-        <h1>HardPass</h1>
-        </div>
-        
-
-
-        <div className = {styles.screenshotContainer}>
-
-
-
-
-        </div>
-
-
-        <div className = {styles.policyContainer}>
-        <p> </p>
-        </div>
-         
+         Hello World
 
 
 

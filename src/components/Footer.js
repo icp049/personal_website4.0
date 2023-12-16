@@ -1,13 +1,11 @@
 import React from "react";
 
+
 const Footer = () => {
   return (
     <footer style={footerStyle}>
       <div style={contentStyle}>
-        <p>
-
-          Policies
-        </p>
+          <p>Policies</p>
         <p style={textStyle}>
           © 2023 Ian Jericho Pedeglorio. All rights reserved.
         </p>
@@ -27,8 +25,14 @@ const contentStyle = {
   justifyContent: "center",
 };
 
+const linkStyle = {
+  textDecoration: "none",
+  color: "#fff",
+  margin: "0",
+};
+
 const textStyle = {
-  margin: 0,
+  margin: "0",
 };
 
 export default Footer;
