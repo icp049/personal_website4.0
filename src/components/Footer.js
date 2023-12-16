@@ -1,25 +1,30 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
     <footer style={footerStyle}>
       <div style={contentStyle}>
-        <p style={textStyle}>© 2023 Ian Jericho Pedeglorio. All rights reserved.</p>
-        
+        <p>
+
+          Policies
+        </p>
+        <p style={textStyle}>
+          © 2023 Ian Jericho Pedeglorio. All rights reserved.
+        </p>
       </div>
     </footer>
   );
 };
 
 const footerStyle = {
-  backgroundColor: 'rgba(0,0,0,.7)',
-  color: '#fff',
-  padding: '20px',
+  backgroundColor: "rgba(0,0,0,.7)",
+  color: "#fff",
+  padding: "20px",
 };
 
 const contentStyle = {
-  display: 'flex',
-  justifyContent: 'center',
+  display: "flex",
+  justifyContent: "center",
 };
 
 const textStyle = {

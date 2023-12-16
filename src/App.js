@@ -6,6 +6,7 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Footer from './components/Footer.js'
 import ImaheLaunch from './components/ImaheLaunch.js'
+import HardPassPolicy from './components/HardPassPolicy'
 
 
 function App() {
