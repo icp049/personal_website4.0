@@ -1,16 +1,46 @@
-import React from "react";
 
+import React, { useState } from "react";
+import PolicyModal from "./PolicyModal";
 
 const Footer = () => {
+
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleExploreClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
+
+
+
+
+
+
   return (
     <footer style={footerStyle}>
       <div style={contentStyle}>
-          <p>Policies</p>
+      <p 
+            onClick={handleExploreClick}
+          >
+            Explore
+          </p>
         <p style={textStyle}>
           © 2023 Ian Jericho Pedeglorio. All rights reserved.
         </p>
       </div>
+
+      {isModalOpen && <PolicyModal onClose={handleCloseModal} />}
+  
+
+
     </footer>
+
   );
 };
 
