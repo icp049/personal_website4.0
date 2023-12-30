@@ -20,7 +20,10 @@ const PolicyModal = ({ onClose }) => {
         <span className="close-button" onClick={onClose}>
           &times;
         </span>
-        <Box width="80%" margin="40px auto">
+        <Box width="80%" margin="40px auto"
+       maxHeight="80vh"  
+        
+        >
           <Tabs
             value={value}
             onChange={handleChange}
@@ -37,7 +40,7 @@ const PolicyModal = ({ onClose }) => {
           >
             <Tab label="HARDPASS" value="hardpass" />
           </Tabs>
-          <Box display="flex" flexDirection="column" alignItems="center">
+          <Box display="flex" flexDirection="column" alignItems="center" maxHeight="80vh" >
             {value === "hardpass" && (
               <React.Fragment>
                 
