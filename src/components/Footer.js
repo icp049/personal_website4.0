@@ -20,7 +20,7 @@ const Footer = () => {
         </p>
 
         <p style={reservedStyle}>
-          © 2023 Ian Jericho Pedeglorio. All rights reserved.
+          © 2024 Ian Jericho Pedeglorio. All rights reserved.
         </p>
       </div>
 
