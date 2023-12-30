@@ -33,18 +33,18 @@ const footerStyle = {
   backgroundColor: "rgba(0,0,0,.7)",
   color: "#fff",
   padding: "20px",
-  textAlign: "center", // Center the text within the footer
+  textAlign: "center", 
 };
 
 const contentStyle = {
   display: "flex",
-  justifyContent: "space-between", // Space between Explore Policies and All rights reserved
-  alignItems: "center", // Center vertically
+  justifyContent: "space-between", 
+  alignItems: "center", 
 };
 
 const textStyle = {
   margin: "0",
-  cursor: "pointer", // Add pointer cursor for better UX
+  cursor: "pointer", 
 };
 
 const reservedStyle = {
