@@ -40,6 +40,11 @@ const PolicyModal = ({ onClose }) => {
               alignItems="center" 
             >
               {value === 'hardpass' && (
+
+
+
+
+
                 <div style={{ color: 'black', textAlign: 'center' }}>
                 
                 Privacy Policy for HardPass App
@@ -90,7 +95,6 @@ If you have any questions, concerns, or feedback regarding this privacy policy o
 Thank you for using HardPass, and rest assured that your privacy and security are our top priorities.
 
 
-Feel free to customize this privacy policy according to your specific needs and details.
                 </div>
               )}
             </Box>
