@@ -10,9 +10,7 @@ import ImaheLaunch from './components/ImaheLaunch.js'
 
 function App() {
   return (
-    <div>
-  
-       
+    <div>  
       <Home />
       <Navbar />
       <About />

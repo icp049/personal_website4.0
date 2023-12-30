@@ -5,11 +5,10 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Updated property */
-  background-image: url('../images/homebackground.jpg');
+  background-image: url("../images/homebackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 .content {
@@ -27,8 +26,6 @@
   -webkit-text-stroke: 2px white;
   color: transparent;
 }
-
-
 
 :root {
   --color-primary: #f6aca2;
@@ -91,7 +88,6 @@
   }
 }
 
-
 @keyframes shadows {
   0% {
     text-shadow: none;
@@ -142,17 +138,3 @@
     text-shadow: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
