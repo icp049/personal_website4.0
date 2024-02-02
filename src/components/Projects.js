@@ -107,6 +107,13 @@ const Projects = () => {
           <div id="lottie-container" className={styles.lottieContainer}></div>
         </div>
 
+
+    
+
+
+
+
+
         <div className={styles.buttonContainer}>
           <button className={styles.projectbutton}>
             <a href="https://github.com/icp049">Explore Projects</a>
