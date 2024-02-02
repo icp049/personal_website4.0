@@ -116,7 +116,7 @@ const Resume = () => {
               <span className={styles["skill-per3"]}></span>
             </div>
 
-            <span className={styles.skill}>Python</span>
+            <span className={styles.skill}>C#</span>
             <div className={styles["skill-bar"]}>
               <span className={styles["skill-per6"]}></span>
             </div>
@@ -130,8 +130,7 @@ const Resume = () => {
           <p>
             I am eager to immerse myself in a dynamic professional development
             environment where I can continuously learn, grow, and make
-            substantial contributions in the fields of Software Development and
-            Embedded Systems.
+            substantial contributions in the fields of Web and iOS Development
           </p>
         </div>
 
@@ -140,23 +139,21 @@ const Resume = () => {
           <br />
           <p>
             <strong>Programming Languages: </strong> C++ &#8226; Javascript
-            &#8226; Swift &#8226; Python{" "}
+            &#8226; Swift &#8226; C#
           </p>
           <p>
-            <strong>Development Stack: </strong>React &#8226; React Native
-            &#8226; Vue &#8226; NodeJS &#8226; ExpressJS &#8226; JSON &#8226;
-            TailwindCSS &#8226; Redux &#8226; Redis &#8226; SwiftUI &#8226;
-            CoreData{" "}
+            <strong>Development Stack: </strong>React &#8226; NodeJS &#8226; 
+           SwiftUI &#8226; ASP.NET Core
           </p>
           <p>
-            <strong>Databases: </strong> SQL &#8226; MySQL &#8226; MongoDB
-            &#8226; Google FIrebase &#8226; AWS
+            <strong>Databases: </strong>  CoreData &#8226; SQL &#8226; MySQL &#8226; MongoDB
+            &#8226; Google FIrebase &#8226; AWS 
           </p>
           <p>
-            <strong>Tools & Technologies:</strong> Docker &#8226; OpenCV &#8226;
-            npm &#8226; Arduino &#8226; Android Studio &#8226; Jupyter Notebooks
-            &#8226; PyCharm &#8226; Github &#8226; Jira &#8226; Figma &#8226;
-            Visual Studio &#8226; Putty &#8226; Ubuntu &#8226; XCode
+            <strong>Tools & Technologies:</strong> 
+            Arduino &#8226; 
+            Git &#8226;  Figma &#8226;
+            Visual Studio &#8226; XCode &#8226; Power Platform
           </p>
           <p>
             <strong>Operating Systems:</strong> Linux &#8226; Windows &#8226;
@@ -169,7 +166,7 @@ const Resume = () => {
           </p>
           <p>
             <strong>Other Skills:</strong> AutoCAD &#8226; ArcGIS &#8226; Adobe
-            Creative Tools &#8226; Office 365{" "}
+            Creative Tools &#8226; Office 365
           </p>
         </div>
 
