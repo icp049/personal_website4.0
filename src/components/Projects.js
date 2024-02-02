@@ -82,6 +82,15 @@ const Projects = () => {
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
             className={styles.icon}
+            style={{ color: "pink" }}
+            alt="C++"
+          />
+        );
+        case "C#":
+        return (
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+            className={styles.icon}
             style={{ color: "purple" }}
             alt="C++"
           />
