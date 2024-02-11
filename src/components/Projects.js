@@ -109,7 +109,9 @@ const Projects = () => {
 
 
     
-
+<div className = {styles.contributionContainer}  id="projects">
+<img src="https://ghchart.rshah.org/icp049" />
+  </div>
 
 
 
@@ -119,7 +121,9 @@ const Projects = () => {
             <a href="https://github.com/icp049">Explore Projects</a>
           </button>
         </div>
+
         <div className={styles.gridContainer}>
+
           {projects.map((project) => (
             <a
               key={project.id}

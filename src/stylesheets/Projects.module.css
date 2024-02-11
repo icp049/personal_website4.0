@@ -10,6 +10,12 @@
   background-position: center;
 }
 
+.contributionContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
 
 .gridContainer {
