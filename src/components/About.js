@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../stylesheets/About.module.css";
-import ian from "../images/profile1.JPG";
+import dp from "../images/dp.jpg";
 
 const About = () => {
   return (
@@ -9,9 +9,14 @@ const About = () => {
         <h1 align="center">Hello, my name is Ian! 👋</h1>
         <p align="center">I am a developer focused on Web & iOS Development</p>
 
+        <div className = {styles.imagecontainer} align="center">
+          <div align="center" className={styles.image}>
+            <img src={dp} alt="haha" />
+          </div>
+        </div>
         <h3 align="center">I code with</h3>
 
-        <div align = "center" className={styles.icons}>
+        <div align="center" className={styles.icons1}>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             alt="javascript logo"
@@ -35,7 +40,7 @@ const About = () => {
 
         <h3 align="center">Tools & Technologies</h3>
 
-        <div align = "center" className={styles.icons}>
+        <div align="center" className={styles.icons2}>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             height="40"
