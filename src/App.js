@@ -13,7 +13,7 @@ function App() {
     <div>  
       <Home />
       <Navbar />
-      <About />
+     <About/>
       <Projects />
       <Resume/>
       <ImaheLaunch/>
