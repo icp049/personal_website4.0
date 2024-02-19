@@ -58,11 +58,6 @@ const About = () => {
               alt="nodejs logo"
             />
        
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-              height="40"
-              alt="amazonwebservices logo"
-            />
          
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"

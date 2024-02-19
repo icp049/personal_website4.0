@@ -86,7 +86,7 @@ const Projects = () => {
             alt="C++"
           />
         );
-        case "C#":
+      case "C#":
         return (
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
@@ -107,14 +107,9 @@ const Projects = () => {
           <div id="lottie-container" className={styles.lottieContainer}></div>
         </div>
 
-
-    
-<div className = {styles.contributionContainer}  id="projects">
-<img src="https://ghchart.rshah.org/icp049" />
-  </div>
-
-
-
+        <div className={styles.contributionContainer} id="projects">
+          <img src="https://ghchart.rshah.org/icp049" />
+        </div>
 
         <div className={styles.buttonContainer}>
           <button className={styles.projectbutton}>
@@ -123,7 +118,6 @@ const Projects = () => {
         </div>
 
         <div className={styles.gridContainer}>
-
           {projects.map((project) => (
             <a
               key={project.id}
