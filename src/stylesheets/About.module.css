@@ -23,7 +23,7 @@
   height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid skyblue;
+  border: 5px solid #F8CA61;
 }
 
 .image img {
