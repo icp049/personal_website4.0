@@ -18,7 +18,6 @@ const ImaheLaunch = () => {
       <div className="launchcontainer" id="imahe">
         <div className="launchcontainertitle">
           <h1 className="launchcontainerh1">Imahe.</h1>
-          <h5 className="launchcontainerh5">A portfolio by Ian Pedeglorio</h5>
           <button
             className="launchcontainerbutton"
             onClick={handleExploreClick}
