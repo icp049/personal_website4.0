@@ -88,86 +88,56 @@ const Resume = () => {
             </li>
           </ul>
         </div>
-
-        {/* Certifications section */}
-        <div className={styles.cert_info}>
-          <h3 className={styles.title}>Certifications</h3>
-          <ul>
-            <li>GIS Course Completion Certificate</li>
-          </ul>
-        </div>
-
-        <div className={styles.language_container}>
-          <h3 className={styles.title}>Language Familiarity</h3>
-          <br />
-          <div className={styles["skill-box"]}>
-            <span className={styles.skill}>C++</span>
-            <div className={styles["skill-bar"]}>
-              <span className={styles["skill-per1"]}></span>
-            </div>
-
-            <span className={styles.skill}>JavaScript</span>
-            <div className={styles["skill-bar"]}>
-              <span className={styles["skill-per2"]}></span>
-            </div>
-
-            <span className={styles.skill}>Swift</span>
-            <div className={styles["skill-bar"]}>
-              <span className={styles["skill-per3"]}></span>
-            </div>
-
-            <span className={styles.skill}>C#</span>
-            <div className={styles["skill-bar"]}>
-              <span className={styles["skill-per6"]}></span>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className={styles.right_side}>
-        <div className={styles.about}>
-          <h3 className={styles.title2}>Professional Summary</h3>
-          <p>
-            I am eager to immerse myself in a dynamic professional development
-            environment where I can continuously learn, grow, and make
-            substantial contributions in the fields of Web and iOS Development
-          </p>
-        </div>
-
         <div className={styles.skills_info}>
           <h3 className={styles.title2}>Relevant Skills</h3>
           <br />
           <p>
-            <strong>Programming Languages: </strong> C++ &#8226; Javascript
-            &#8226; Swift &#8226; C#
+            <strong>Current Languages: </strong> Python &#8226; Dart &#8226;
+            Javascript &#8226; Swift
           </p>
+          <br></br>
           <p>
-            <strong>Development Stack: </strong>React &#8226; NodeJS &#8226; 
-           SwiftUI &#8226; ASP.NET Core
+            <strong>Frontend Stack: </strong>React &#8226; SwiftUI &#8226;
+            Flutter
           </p>
+          <br></br>
           <p>
-            <strong>Databases: </strong>  CoreData &#8226; SQL &#8226; MySQL &#8226; MongoDB
-            &#8226; Google FIrebase &#8226; AWS 
+            <strong>Backend Stack: </strong>FASTAPI &#8226; Django &#8226;
+            nodejs
           </p>
+          <br></br>
           <p>
-            <strong>Tools & Technologies:</strong> 
-            Arduino &#8226; 
-            Git &#8226;  Figma &#8226;
-            Visual Studio &#8226; XCode &#8226; Power Platform
+            <strong>Database: </strong> CoreData &#8226; SQL &#8226; PostgreSQL
+            &#8226; MongoDB &#8226; FIrebase
           </p>
+          <br></br>
+
           <p>
-            <strong>Operating Systems:</strong> Linux &#8226; Windows &#8226;
-            MacOS
+            <strong>Cloud: </strong> AWS &#8226; GCP
           </p>
+          <br></br>
+
           <p>
-            <strong>Electonics:</strong> PCB Design &#8226; Microcontroller
-            Boards &#8226; Instruments &#8226; Circuit design/analysis &#8226;
-            Soldering
+            <strong>Other Development SKills: </strong> Power Platform
+            Development &#8226; Sharepoint Development
           </p>
-          <p>
-            <strong>Other Skills:</strong> AutoCAD &#8226; ArcGIS &#8226; Adobe
-            Creative Tools &#8226; Office 365
-          </p>
+          <br></br>
+        </div>
+
+        <div className={styles.language_container}>
+          <a
+            href="https://github.com/anuraghazra/github-readme-stats"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=icp049&layout=donut&langs_count=8"
+              alt="Top Languages"
+            />
+          </a>
         </div>
 
         {/* Relevant Work Experience section */}
@@ -177,16 +147,93 @@ const Resume = () => {
             <h4>Junior Developer</h4>
             <h5>Regina Public Library - City of Regina: Present</h5>
 
+            <li>
+              {" "}
+              <h6>
+                Direct involvement with changes and maintainance of websites
+                that caters 9 branches across the city.
+              </h6>
+            </li>
+            <li>
+              {" "}
+              <h6>
+              Scripting using Python
+              </h6>
+            </li>
+            <li>
+              {" "}
+              <h6>
+                Proficient in API design and integration. Familiar with
+                utilizing 3rd party APIs for application components
+              </h6>
+            </li>
+            <li>
+              {" "}
+              <h6>
+                Participated in code reviews, testing and releases. Expert in
+                git flow and cloud tools during cycle.
+              </h6>
+            </li>
+            <li>
+              {" "}
+              <h6>Familiar with CI/CD pipeline practices and usage.</h6>
+            </li>
+            <li>
+              {" "}
+              <h6>
+                Experience with AWS (Creating Instances, subnets, gateways,
+                usage of buckets, API deployment etc.){" "}
+              </h6>
+            </li>
+
+            <li>
+              {" "}
+              <h6>
+                Proficient in PowerApps(powerFX) and Sharepoint development with
+                Azure Integrations.
+              </h6>
+            </li>
+
+            <li>
+              {" "}
+              <h6>
+                Attend to tickets that require troubleshooting or changes in our
+                customer facing and internal applications
+              </h6>
+            </li>
+
+            <li>
+              {" "}
+              <h6>
+                I do tehnician duties on the sides, such as troubleshooting and
+                maintaining kiosks, VR systems, 3D printers.
+              </h6>
+            </li>
+
             <br />
 
             <h4>Developer/Contributor</h4>
             <h5>2021-Present</h5>
+
+            <li>
+              {" "}
+              <h6>
+              An active ios developer using Swift and flutter for mobile applications.
+              </h6>
+            </li>
             <li>
               {" "}
               <h6>
                 Utilized Javascript frontend and backend tools to create dynamic
                 websites, e-commerce sites with CMS, peer- to-peer websites,
                 chat apps, API design, database integrations, encryptions etc.
+              </h6>
+            </li>
+        
+            <li>
+              {" "}
+              <h6>
+              Participated in agile environments for startups as a paid contributor as a side gig
               </h6>
             </li>
             <li>
@@ -198,34 +245,9 @@ const Resume = () => {
                 protocols, etc.).{" "}
               </h6>
             </li>
-            <li>
-              {" "}
-              <h6>
-                Heavily used Swift and Javascript(React Native framework) to do
-                mobile apps for fun -- made prototype clones of existing popular
-                apps like instagram, twitter, messenger and uber.
-              </h6>
-            </li>
-            <li>
-              {" "}
-              <h6>
-                Created windows desktop applications using C# and sold it for
-                extra money. (e.g Admin Portal and Reservation System for small
-                motels)
-              </h6>
-            </li>
-            <li>
-              {" "}
-              <h6>
-                Working knowledge of SQL/NoSQL tools, built custom database
-                solutions that meet clients needs, tuned and optimized it before
-                implementing inside web/mobile applications.
-              </h6>
-            </li>
-            <li>
-              {" "}
-              <h6>Experience with cloud utilization and deployment </h6>
-            </li>
+
+          
+      
 
             <br />
 
@@ -254,8 +276,7 @@ const Resume = () => {
 
             <li>
               <h6>
-                Utilized python and matplotlib to analyze a wide range of urban
-                layout data and visualized it for presentations.
+              Utilized python and matplotlib to analyze a wide range of urban layout data and visualized it for presentations.
               </h6>
             </li>
             <li>

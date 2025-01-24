@@ -42,14 +42,10 @@ const Navbar = () => {
           </li>
           <li className={styles["nav-item"]}>
             <a href="#resume" onClick={closeMenu}>
-             Resume
+              Resume
             </a>
           </li>
-          <li className={styles["nav-item"]}>
-            <a href="#imahe" onClick={closeMenu}>
-              Imahe
-            </a>
-          </li>
+          
         </ul>
       </nav>
     </div>
