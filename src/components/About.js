@@ -87,17 +87,7 @@ const About = () => {
             alt="firebase logo"
           />
 
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-            height="40"
-            alt="linux logo"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg"
-            height="40"
-            alt="xcode logo"
-          />
+        
 
           <img
             src="https://skillicons.dev/icons?i=git"
