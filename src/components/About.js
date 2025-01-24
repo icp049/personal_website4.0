@@ -7,9 +7,7 @@ const About = () => {
     <div className={styles.about} id="about">
       <div className={styles.aboutdetails}>
         <h1 align="center">Hello, my name is Ian! 👋</h1>
-        <p align="center">I am a developer focused on Web & iOS Development</p>
-
-        <div className = {styles.imagecontainer} align="center">
+        <div className={styles.imagecontainer} align="center">
           <div align="center" className={styles.image}>
             <img src={dp} alt="haha" />
           </div>
@@ -18,31 +16,49 @@ const About = () => {
 
         <div align="center" className={styles.icons1}>
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
             alt="javascript logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-            height="40"
-            alt="cplusplus logo"
           />
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
             height="40"
+            alt="cplusplus logo"
+          />
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            height="40"
             alt="embeddedc logo"
           />
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
             height="40"
             alt="cplusplus logo"
           />
         </div>
 
-        <h3 align="center">Tools & Technologies</h3>
+        <h3 align="center">Tools & Frameworks</h3>
 
         <div align="center" className={styles.icons2}>
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            height="40"
+            alt="react logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+            height="40"
+            alt="react logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+            height="40"
+            alt="react logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
             height="40"
             alt="react logo"
           />
@@ -66,12 +82,6 @@ const About = () => {
           />
 
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
-            height="40"
-            alt="jira logo"
-          />
-
-          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
             height="40"
             alt="firebase logo"
@@ -84,45 +94,9 @@ const About = () => {
           />
 
           <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-            height="40"
-            alt="figma logo"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-            height="40"
-            alt="vscode logo"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-original.svg"
-            height="40"
-            alt="drupal logo"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"
-            height="40"
-            alt="visualstudio logo"
-          />
-
-          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg"
             height="40"
             alt="xcode logo"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
-            height="40"
-            alt="dot-net logo"
-          />
-
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"
-            height="40"
-            alt="dotnetcore logo"
           />
 
           <img

@@ -92,8 +92,30 @@ const Resume = () => {
 
       <div className={styles.right_side}>
         <div className={styles.skills_info}>
-          <h3 className={styles.title2}>Relevant Skills</h3>
+     
+
+
+
           <br />
+
+          <div className={styles.language_container}>
+          <a
+            href="https://github.com/anuraghazra/github-readme-stats"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=icp049&layout=donut&langs_count=8"
+              alt="Top Languages"
+            />
+          </a>
+        </div>
+
+        <br />
+
+        <h3 className={styles.title2}>Relevant Skills</h3>
+
+        <br />
           <p>
             <strong>Current Languages: </strong> Python &#8226; Dart &#8226;
             Javascript &#8226; Swift
@@ -127,18 +149,7 @@ const Resume = () => {
           <br></br>
         </div>
 
-        <div className={styles.language_container}>
-          <a
-            href="https://github.com/anuraghazra/github-readme-stats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=icp049&layout=donut&langs_count=8"
-              alt="Top Languages"
-            />
-          </a>
-        </div>
+       
 
         {/* Relevant Work Experience section */}
         <div className={styles.experience_container}>

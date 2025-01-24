@@ -95,6 +95,26 @@ const Projects = () => {
             alt="C++"
           />
         );
+
+        case "PHP":
+          return (
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+              className={styles.icon}
+              style={{ color: "purple" }}
+              alt="C++"
+            />
+          );
+
+          case "Dart":
+            return (
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+                className={styles.icon}
+                style={{ color: "purple" }}
+                alt="C++"
+              />
+            );
       default:
         return null; // Return null if no matching icon is found
     }
@@ -111,11 +131,7 @@ const Projects = () => {
           <img src="https://ghchart.rshah.org/icp049" />
         </div>
 
-        <div className={styles.buttonContainer}>
-          <button className={styles.projectbutton}>
-            <a href="https://github.com/icp049">Explore Projects</a>
-          </button>
-        </div>
+     
 
         <div className={styles.gridContainer}>
           {projects.map((project) => (
@@ -133,6 +149,13 @@ const Projects = () => {
               </div>
             </a>
           ))}
+        </div>
+
+
+        <div className={styles.buttonContainer}>
+          <button className={styles.projectbutton}>
+            <a href="https://github.com/icp049">Explore Projects</a>
+          </button>
         </div>
       </div>
     </div>
