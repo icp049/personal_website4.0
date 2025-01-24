@@ -30,7 +30,7 @@ const Footer = () => {
 };
 
 const footerStyle = {
-  backgroundColor: "rgba(0,0,0,.7)",
+  backgroundColor: "rgba(54, 52, 52, 0.9)",
   color: "#fff",
   padding: "20px",
   textAlign: "center", 

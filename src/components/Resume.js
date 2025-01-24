@@ -19,7 +19,7 @@ const Resume = () => {
           <h2>
             Ian Jericho Pedeglorio
             <br />
-            <span>Developer</span>
+         
           </h2>
         </div>
 
@@ -88,30 +88,14 @@ const Resume = () => {
             </li>
           </ul>
         </div>
+
+
+
       </div>
 
       <div className={styles.right_side}>
         <div className={styles.skills_info}>
-     
-
-
-
-          <br />
-
-          <div className={styles.language_container}>
-          <a
-            href="https://github.com/anuraghazra/github-readme-stats"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=icp049&layout=donut&langs_count=8"
-              alt="Top Languages"
-            />
-          </a>
-        </div>
-
-        <br />
+  
 
         <h3 className={styles.title2}>Relevant Skills</h3>
 
@@ -147,6 +131,24 @@ const Resume = () => {
             Development &#8226; Sharepoint Development
           </p>
           <br></br>
+
+
+          <br />
+
+<div  className={styles.language_container}>
+<a
+  href="https://github.com/anuraghazra/github-readme-stats"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=icp049&layout=compact&langs_count=8"
+    alt="Top Languages"
+  />
+</a>
+</div>
+
+<br />
         </div>
 
        
